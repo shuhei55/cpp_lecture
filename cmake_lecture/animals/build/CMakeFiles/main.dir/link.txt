@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/main.dir/main.o CMakeFiles/main.dir/my_library.o  -o main -rdynamic 

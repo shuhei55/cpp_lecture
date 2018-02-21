@@ -6,10 +6,9 @@
 #include <time.h>
 using namespace std;
 
-int main()
-{
+int main() {
     int n;
-    while(true){
+    while (true) {
         cin >> n;
         clock_t start = clock();
         vector<int> a(n + 1, 1);
@@ -29,4 +28,3 @@ int main()
         }
     }
 }
-

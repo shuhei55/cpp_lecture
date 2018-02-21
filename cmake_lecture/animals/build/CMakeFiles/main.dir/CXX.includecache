@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shuhei/RoboTech/cpp_lecture/cmake_lecture/animals/main.cpp
+iostream
+-
+my_library.hpp
+/home/shuhei/RoboTech/cpp_lecture/cmake_lecture/animals/my_library.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/cmake_lecture/animals/my_library.cpp
+iostream
+-
+my_library.hpp
+/home/shuhei/RoboTech/cpp_lecture/cmake_lecture/animals/my_library.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/cmake_lecture/animals/my_library.hpp
+

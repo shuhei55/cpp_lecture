@@ -1,0 +1,7 @@
+#cmake_minimum_required(VERSION 3.6)
+#set(SOURCE_FILES main.cpp my_library.cpp)
+#file(GLOB SOURCE_FILES ./*.cpp)
+#message("Source files: ${SOURCE_FILES}")
+#add_library()
+add_executable(main main.cpp my_library.cpp )
+target_include_directories(main PUBLIC ./)
