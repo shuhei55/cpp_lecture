@@ -4,7 +4,8 @@ using namespace std;
 
 int gamemode = 1;
 
-int main() {
+int main()
+{
     while (true) {
         play();
         if (gamemode == 1) {

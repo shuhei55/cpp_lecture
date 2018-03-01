@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/main.dir/config/params.cpp.o CMakeFiles/main.dir/src/ui.cpp.o CMakeFiles/main.dir/main.cpp.o  -o main 

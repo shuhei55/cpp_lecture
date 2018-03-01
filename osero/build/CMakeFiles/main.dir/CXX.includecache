@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shuhei/RoboTech/cpp_lecture/osero/head.hpp
+array
+-
+iostream
+-
+string
+-
+math.h
+-
+
+/home/shuhei/RoboTech/cpp_lecture/osero/main.cpp
+head.hpp
+/home/shuhei/RoboTech/cpp_lecture/osero/head.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/osero/src.cpp
+head.hpp
+/home/shuhei/RoboTech/cpp_lecture/osero/head.hpp
+

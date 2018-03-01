@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shuhei/RoboTech/cpp_lecture/chess/config/params.cpp
+params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/config/params.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess/config/params.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess/include/head.hpp
+iostream
+-
+array
+-
+math.h
+-
+../config/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/config/params.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess/main.cpp
+include/head.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/head.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess/src/ui.cpp
+../include/head.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/head.hpp
+
