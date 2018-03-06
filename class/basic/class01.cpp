@@ -3,8 +3,7 @@
 
 using namespace std;
 
-struct Person
-{
+struct Person {
     void introduce()
     {
         cout << "名前は" << name << endl;
@@ -19,7 +18,7 @@ struct Person
     double height, weight;
 };
 
-int main() 
+int main()
 {
     Person one;
     one.name = "太郎";
