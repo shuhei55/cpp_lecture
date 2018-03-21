@@ -1,3 +1,4 @@
+#pragma once
 extern const int PONE;
 extern const int ROOK;
 extern const int NIGHT;

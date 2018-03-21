@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shuhei/RoboTech/cpp_lecture/chess/main.cpp" "/home/shuhei/RoboTech/cpp_lecture/chess/build/CMakeFiles/main.dir/main.cpp.o"
-  "/home/shuhei/RoboTech/cpp_lecture/chess/src/params.cpp" "/home/shuhei/RoboTech/cpp_lecture/chess/build/CMakeFiles/main.dir/src/params.cpp.o"
-  "/home/shuhei/RoboTech/cpp_lecture/chess/src/ui.cpp" "/home/shuhei/RoboTech/cpp_lecture/chess/build/CMakeFiles/main.dir/src/ui.cpp.o"
+  "/home/shuhei/RoboTech/cpp_lecture/chess2/main.cpp" "/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

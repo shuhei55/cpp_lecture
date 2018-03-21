@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuhei/RoboTech/cpp_lecture/chess
+CMAKE_SOURCE_DIR = /home/shuhei/RoboTech/cpp_lecture/chess2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuhei/RoboTech/cpp_lecture/chess/build
+CMAKE_BINARY_DIR = /home/shuhei/RoboTech/cpp_lecture/chess2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuhei/RoboTech/cpp_lecture/chess/build/CMakeFiles /home/shuhei/RoboTech/cpp_lecture/chess/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles /home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuhei/RoboTech/cpp_lecture/chess/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,60 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/params.o: src/params.cpp.o
-
-.PHONY : src/params.o
-
-# target to build an object file
-src/params.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/params.cpp.o
-.PHONY : src/params.cpp.o
-
-src/params.i: src/params.cpp.i
-
-.PHONY : src/params.i
-
-# target to preprocess a source file
-src/params.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/params.cpp.i
-.PHONY : src/params.cpp.i
-
-src/params.s: src/params.cpp.s
-
-.PHONY : src/params.s
-
-# target to generate assembly for a file
-src/params.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/params.cpp.s
-.PHONY : src/params.cpp.s
-
-src/ui.o: src/ui.cpp.o
-
-.PHONY : src/ui.o
-
-# target to build an object file
-src/ui.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ui.cpp.o
-.PHONY : src/ui.cpp.o
-
-src/ui.i: src/ui.cpp.i
-
-.PHONY : src/ui.i
-
-# target to preprocess a source file
-src/ui.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ui.cpp.i
-.PHONY : src/ui.cpp.i
-
-src/ui.s: src/ui.cpp.s
-
-.PHONY : src/ui.s
-
-# target to generate assembly for a file
-src/ui.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ui.cpp.s
-.PHONY : src/ui.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +162,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/params.o"
-	@echo "... src/params.i"
-	@echo "... src/params.s"
-	@echo "... src/ui.o"
-	@echo "... src/ui.i"
-	@echo "... src/ui.s"
 .PHONY : help
 
 

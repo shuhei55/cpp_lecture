@@ -1,4 +1,4 @@
-#include "params.hpp"
+#include "../include/params.hpp"
 
 const int PONE = 1;
 const int ROOK = 2;

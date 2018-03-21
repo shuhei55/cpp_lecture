@@ -1,6 +1,6 @@
-#include "../include/head.hpp"
+#include "../include/ui.hpp"
 
-std::array<std::array<int, 8>, 8> position = {
+/*std::array<std::array<int, 8>, 8> position = {
     {{ROOK, NIGHT, BISHOP, QUEEN, KING, BISHOP, NIGHT, ROOK},
         {PONE, PONE, PONE, PONE, PONE, PONE, PONE, PONE},
         {NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE},
@@ -8,9 +8,9 @@ std::array<std::array<int, 8>, 8> position = {
         {NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE},
         {NONE, NONE, NONE, NONE, NONE, NONE, NONE, NONE},
         {PONE, PONE, PONE, PONE, PONE, PONE, PONE, PONE},
-        {ROOK, NIGHT, BISHOP, QUEEN, KING, BISHOP, NIGHT, ROOK}}};
+        {ROOK, NIGHT, BISHOP, QUEEN, KING, BISHOP, NIGHT, ROOK}}};*/
 
-int number;
+//int number;
 std::array<int, 2> pos_before;
 std::array<int, 2> pos_after;
 
@@ -28,4 +28,8 @@ void input()
 {
     std::cout << "駒の番号と駒の位置と移動先" << std::endl;
     std::cin >> number >> pos_before.at(0) >> pos_before.at(1) >> pos_after.at(0) >> pos_after.at(1);
+}
+
+void initbox()
+{
 }

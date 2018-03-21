@@ -6,27 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/shuhei/RoboTech/cpp_lecture/chess/config/params.cpp
-params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess/config/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/head.hpp
+include/ui.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/ui.hpp
+include/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/params.hpp
 
-/home/shuhei/RoboTech/cpp_lecture/chess/config/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/params.hpp
 
-/home/shuhei/RoboTech/cpp_lecture/chess/include/head.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/ui.hpp
 iostream
 -
 array
 -
 math.h
 -
-../config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess/config/params.hpp
+../head.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/head.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess/main.cpp
-include/head.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess/include/head.hpp
+head.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/head.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess/src/params.cpp
+../include/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess/src/ui.cpp
-../include/head.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess/include/head.hpp
+../include/ui.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess/include/ui.hpp
 

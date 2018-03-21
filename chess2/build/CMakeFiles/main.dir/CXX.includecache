@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
+cstdint
+-
+
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/pone.hpp
+koma.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess2/main.cpp
+lib/include/pone.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/pone.hpp
+iostream
+-
+

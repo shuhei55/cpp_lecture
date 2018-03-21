@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/src/params.cpp.o"
-  "CMakeFiles/main.dir/src/ui.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
   "main.pdb"
   "main"
