@@ -123,6 +123,276 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+config/params.o: config/params.cpp.o
+
+.PHONY : config/params.o
+
+# target to build an object file
+config/params.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/config/params.cpp.o
+.PHONY : config/params.cpp.o
+
+config/params.i: config/params.cpp.i
+
+.PHONY : config/params.i
+
+# target to preprocess a source file
+config/params.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/config/params.cpp.i
+.PHONY : config/params.cpp.i
+
+config/params.s: config/params.cpp.s
+
+.PHONY : config/params.s
+
+# target to generate assembly for a file
+config/params.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/config/params.cpp.s
+.PHONY : config/params.cpp.s
+
+init/init.o: init/init.cpp.o
+
+.PHONY : init/init.o
+
+# target to build an object file
+init/init.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/init.cpp.o
+.PHONY : init/init.cpp.o
+
+init/init.i: init/init.cpp.i
+
+.PHONY : init/init.i
+
+# target to preprocess a source file
+init/init.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/init.cpp.i
+.PHONY : init/init.cpp.i
+
+init/init.s: init/init.cpp.s
+
+.PHONY : init/init.s
+
+# target to generate assembly for a file
+init/init.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/init.cpp.s
+.PHONY : init/init.cpp.s
+
+init/ui.o: init/ui.cpp.o
+
+.PHONY : init/ui.o
+
+# target to build an object file
+init/ui.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/ui.cpp.o
+.PHONY : init/ui.cpp.o
+
+init/ui.i: init/ui.cpp.i
+
+.PHONY : init/ui.i
+
+# target to preprocess a source file
+init/ui.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/ui.cpp.i
+.PHONY : init/ui.cpp.i
+
+init/ui.s: init/ui.cpp.s
+
+.PHONY : init/ui.s
+
+# target to generate assembly for a file
+init/ui.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/ui.cpp.s
+.PHONY : init/ui.cpp.s
+
+lib/src/bishop.o: lib/src/bishop.cpp.o
+
+.PHONY : lib/src/bishop.o
+
+# target to build an object file
+lib/src/bishop.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/bishop.cpp.o
+.PHONY : lib/src/bishop.cpp.o
+
+lib/src/bishop.i: lib/src/bishop.cpp.i
+
+.PHONY : lib/src/bishop.i
+
+# target to preprocess a source file
+lib/src/bishop.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/bishop.cpp.i
+.PHONY : lib/src/bishop.cpp.i
+
+lib/src/bishop.s: lib/src/bishop.cpp.s
+
+.PHONY : lib/src/bishop.s
+
+# target to generate assembly for a file
+lib/src/bishop.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/bishop.cpp.s
+.PHONY : lib/src/bishop.cpp.s
+
+lib/src/king.o: lib/src/king.cpp.o
+
+.PHONY : lib/src/king.o
+
+# target to build an object file
+lib/src/king.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/king.cpp.o
+.PHONY : lib/src/king.cpp.o
+
+lib/src/king.i: lib/src/king.cpp.i
+
+.PHONY : lib/src/king.i
+
+# target to preprocess a source file
+lib/src/king.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/king.cpp.i
+.PHONY : lib/src/king.cpp.i
+
+lib/src/king.s: lib/src/king.cpp.s
+
+.PHONY : lib/src/king.s
+
+# target to generate assembly for a file
+lib/src/king.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/king.cpp.s
+.PHONY : lib/src/king.cpp.s
+
+lib/src/koma.o: lib/src/koma.cpp.o
+
+.PHONY : lib/src/koma.o
+
+# target to build an object file
+lib/src/koma.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/koma.cpp.o
+.PHONY : lib/src/koma.cpp.o
+
+lib/src/koma.i: lib/src/koma.cpp.i
+
+.PHONY : lib/src/koma.i
+
+# target to preprocess a source file
+lib/src/koma.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/koma.cpp.i
+.PHONY : lib/src/koma.cpp.i
+
+lib/src/koma.s: lib/src/koma.cpp.s
+
+.PHONY : lib/src/koma.s
+
+# target to generate assembly for a file
+lib/src/koma.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/koma.cpp.s
+.PHONY : lib/src/koma.cpp.s
+
+lib/src/night.o: lib/src/night.cpp.o
+
+.PHONY : lib/src/night.o
+
+# target to build an object file
+lib/src/night.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/night.cpp.o
+.PHONY : lib/src/night.cpp.o
+
+lib/src/night.i: lib/src/night.cpp.i
+
+.PHONY : lib/src/night.i
+
+# target to preprocess a source file
+lib/src/night.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/night.cpp.i
+.PHONY : lib/src/night.cpp.i
+
+lib/src/night.s: lib/src/night.cpp.s
+
+.PHONY : lib/src/night.s
+
+# target to generate assembly for a file
+lib/src/night.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/night.cpp.s
+.PHONY : lib/src/night.cpp.s
+
+lib/src/pone.o: lib/src/pone.cpp.o
+
+.PHONY : lib/src/pone.o
+
+# target to build an object file
+lib/src/pone.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/pone.cpp.o
+.PHONY : lib/src/pone.cpp.o
+
+lib/src/pone.i: lib/src/pone.cpp.i
+
+.PHONY : lib/src/pone.i
+
+# target to preprocess a source file
+lib/src/pone.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/pone.cpp.i
+.PHONY : lib/src/pone.cpp.i
+
+lib/src/pone.s: lib/src/pone.cpp.s
+
+.PHONY : lib/src/pone.s
+
+# target to generate assembly for a file
+lib/src/pone.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/pone.cpp.s
+.PHONY : lib/src/pone.cpp.s
+
+lib/src/queen.o: lib/src/queen.cpp.o
+
+.PHONY : lib/src/queen.o
+
+# target to build an object file
+lib/src/queen.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/queen.cpp.o
+.PHONY : lib/src/queen.cpp.o
+
+lib/src/queen.i: lib/src/queen.cpp.i
+
+.PHONY : lib/src/queen.i
+
+# target to preprocess a source file
+lib/src/queen.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/queen.cpp.i
+.PHONY : lib/src/queen.cpp.i
+
+lib/src/queen.s: lib/src/queen.cpp.s
+
+.PHONY : lib/src/queen.s
+
+# target to generate assembly for a file
+lib/src/queen.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/queen.cpp.s
+.PHONY : lib/src/queen.cpp.s
+
+lib/src/rook.o: lib/src/rook.cpp.o
+
+.PHONY : lib/src/rook.o
+
+# target to build an object file
+lib/src/rook.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/rook.cpp.o
+.PHONY : lib/src/rook.cpp.o
+
+lib/src/rook.i: lib/src/rook.cpp.i
+
+.PHONY : lib/src/rook.i
+
+# target to preprocess a source file
+lib/src/rook.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/rook.cpp.i
+.PHONY : lib/src/rook.cpp.i
+
+lib/src/rook.s: lib/src/rook.cpp.s
+
+.PHONY : lib/src/rook.s
+
+# target to generate assembly for a file
+lib/src/rook.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/rook.cpp.s
+.PHONY : lib/src/rook.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +429,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
+	@echo "... config/params.o"
+	@echo "... config/params.i"
+	@echo "... config/params.s"
+	@echo "... init/init.o"
+	@echo "... init/init.i"
+	@echo "... init/init.s"
+	@echo "... init/ui.o"
+	@echo "... init/ui.i"
+	@echo "... init/ui.s"
+	@echo "... lib/src/bishop.o"
+	@echo "... lib/src/bishop.i"
+	@echo "... lib/src/bishop.s"
+	@echo "... lib/src/king.o"
+	@echo "... lib/src/king.i"
+	@echo "... lib/src/king.s"
+	@echo "... lib/src/koma.o"
+	@echo "... lib/src/koma.i"
+	@echo "... lib/src/koma.s"
+	@echo "... lib/src/night.o"
+	@echo "... lib/src/night.i"
+	@echo "... lib/src/night.s"
+	@echo "... lib/src/pone.o"
+	@echo "... lib/src/pone.i"
+	@echo "... lib/src/pone.s"
+	@echo "... lib/src/queen.o"
+	@echo "... lib/src/queen.i"
+	@echo "... lib/src/queen.s"
+	@echo "... lib/src/rook.o"
+	@echo "... lib/src/rook.i"
+	@echo "... lib/src/rook.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

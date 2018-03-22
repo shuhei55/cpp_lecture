@@ -1,18 +1,28 @@
 #pragma once
 #include <cstdint>
+#include <array>
+#include <memory>
+#include "config/params.hpp"
 class AbstKoma
 {
 public:
-    explicit AbstKoma(int tate, int yoko, uint8_t player) : m_tate(tate), m_yoko(yoko), m_player(player) {}
+    explicit AbstKoma(int tate, int yoko, int player) : m_tate(tate), m_yoko(yoko), m_player(player) {}
 
-    bool check_alive() const
+    /*bool check_alive() const
     {
-        return !(m_tate == 0 || m_yoko == 0);
-    }
+        return !(m_tate == -1 || m_yoko == -1);
+    }*/
 
     virtual void change_position(int new_tate, int new_yoko) = 0;
 
-    int return_tate() const
+    virtual int returnID() const = 0;
+
+    int return_player() const
+    {
+        return m_player;
+    }
+
+    /*int return_tate() const
     {
         return m_tate;
     }
@@ -26,11 +36,11 @@ public:
     {
         m_tate = -1;
         m_yoko = -1;
-    }
+    }*/
+
+    static std::array<std::array<std::shared_ptr<AbstKoma>, 8>, 8> position;
 
 protected:
     int m_tate, m_yoko;
-
-private:
-    uint8_t m_player;
+    int m_player;
 };

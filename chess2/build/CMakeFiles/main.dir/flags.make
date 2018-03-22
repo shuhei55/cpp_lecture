@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/shuhei/RoboTech/cpp_lecture/chess2 -I/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include 
 

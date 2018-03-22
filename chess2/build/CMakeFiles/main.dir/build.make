@@ -81,17 +81,277 @@ CMakeFiles/main.dir/main.cpp.o.provides: CMakeFiles/main.dir/main.cpp.o.requires
 CMakeFiles/main.dir/main.cpp.o.provides.build: CMakeFiles/main.dir/main.cpp.o
 
 
+CMakeFiles/main.dir/init/init.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/init/init.cpp.o: ../init/init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/init/init.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/init/init.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/init/init.cpp
+
+CMakeFiles/main.dir/init/init.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/init/init.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/init/init.cpp > CMakeFiles/main.dir/init/init.cpp.i
+
+CMakeFiles/main.dir/init/init.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/init/init.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/init/init.cpp -o CMakeFiles/main.dir/init/init.cpp.s
+
+CMakeFiles/main.dir/init/init.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/init/init.cpp.o.requires
+
+CMakeFiles/main.dir/init/init.cpp.o.provides: CMakeFiles/main.dir/init/init.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/init.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/init/init.cpp.o.provides
+
+CMakeFiles/main.dir/init/init.cpp.o.provides.build: CMakeFiles/main.dir/init/init.cpp.o
+
+
+CMakeFiles/main.dir/init/ui.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/init/ui.cpp.o: ../init/ui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/init/ui.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/init/ui.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/init/ui.cpp
+
+CMakeFiles/main.dir/init/ui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/init/ui.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/init/ui.cpp > CMakeFiles/main.dir/init/ui.cpp.i
+
+CMakeFiles/main.dir/init/ui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/init/ui.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/init/ui.cpp -o CMakeFiles/main.dir/init/ui.cpp.s
+
+CMakeFiles/main.dir/init/ui.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/init/ui.cpp.o.requires
+
+CMakeFiles/main.dir/init/ui.cpp.o.provides: CMakeFiles/main.dir/init/ui.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/init/ui.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/init/ui.cpp.o.provides
+
+CMakeFiles/main.dir/init/ui.cpp.o.provides.build: CMakeFiles/main.dir/init/ui.cpp.o
+
+
+CMakeFiles/main.dir/config/params.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/config/params.cpp.o: ../config/params.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/config/params.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/config/params.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/config/params.cpp
+
+CMakeFiles/main.dir/config/params.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/config/params.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/config/params.cpp > CMakeFiles/main.dir/config/params.cpp.i
+
+CMakeFiles/main.dir/config/params.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/config/params.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/config/params.cpp -o CMakeFiles/main.dir/config/params.cpp.s
+
+CMakeFiles/main.dir/config/params.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/config/params.cpp.o.requires
+
+CMakeFiles/main.dir/config/params.cpp.o.provides: CMakeFiles/main.dir/config/params.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/config/params.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/config/params.cpp.o.provides
+
+CMakeFiles/main.dir/config/params.cpp.o.provides.build: CMakeFiles/main.dir/config/params.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/bishop.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/bishop.cpp.o: ../lib/src/bishop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/lib/src/bishop.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/bishop.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/bishop.cpp
+
+CMakeFiles/main.dir/lib/src/bishop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/bishop.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/bishop.cpp > CMakeFiles/main.dir/lib/src/bishop.cpp.i
+
+CMakeFiles/main.dir/lib/src/bishop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/bishop.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/bishop.cpp -o CMakeFiles/main.dir/lib/src/bishop.cpp.s
+
+CMakeFiles/main.dir/lib/src/bishop.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/bishop.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/bishop.cpp.o.provides: CMakeFiles/main.dir/lib/src/bishop.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/bishop.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/bishop.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/bishop.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/bishop.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/king.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/king.cpp.o: ../lib/src/king.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/lib/src/king.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/king.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/king.cpp
+
+CMakeFiles/main.dir/lib/src/king.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/king.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/king.cpp > CMakeFiles/main.dir/lib/src/king.cpp.i
+
+CMakeFiles/main.dir/lib/src/king.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/king.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/king.cpp -o CMakeFiles/main.dir/lib/src/king.cpp.s
+
+CMakeFiles/main.dir/lib/src/king.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/king.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/king.cpp.o.provides: CMakeFiles/main.dir/lib/src/king.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/king.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/king.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/king.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/king.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/koma.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/koma.cpp.o: ../lib/src/koma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/lib/src/koma.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/koma.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/koma.cpp
+
+CMakeFiles/main.dir/lib/src/koma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/koma.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/koma.cpp > CMakeFiles/main.dir/lib/src/koma.cpp.i
+
+CMakeFiles/main.dir/lib/src/koma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/koma.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/koma.cpp -o CMakeFiles/main.dir/lib/src/koma.cpp.s
+
+CMakeFiles/main.dir/lib/src/koma.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/koma.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/koma.cpp.o.provides: CMakeFiles/main.dir/lib/src/koma.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/koma.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/koma.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/koma.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/koma.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/night.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/night.cpp.o: ../lib/src/night.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/lib/src/night.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/night.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/night.cpp
+
+CMakeFiles/main.dir/lib/src/night.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/night.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/night.cpp > CMakeFiles/main.dir/lib/src/night.cpp.i
+
+CMakeFiles/main.dir/lib/src/night.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/night.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/night.cpp -o CMakeFiles/main.dir/lib/src/night.cpp.s
+
+CMakeFiles/main.dir/lib/src/night.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/night.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/night.cpp.o.provides: CMakeFiles/main.dir/lib/src/night.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/night.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/night.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/night.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/night.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/pone.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/pone.cpp.o: ../lib/src/pone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/lib/src/pone.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/pone.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/pone.cpp
+
+CMakeFiles/main.dir/lib/src/pone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/pone.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/pone.cpp > CMakeFiles/main.dir/lib/src/pone.cpp.i
+
+CMakeFiles/main.dir/lib/src/pone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/pone.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/pone.cpp -o CMakeFiles/main.dir/lib/src/pone.cpp.s
+
+CMakeFiles/main.dir/lib/src/pone.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/pone.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/pone.cpp.o.provides: CMakeFiles/main.dir/lib/src/pone.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/pone.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/pone.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/pone.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/pone.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/queen.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/queen.cpp.o: ../lib/src/queen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/lib/src/queen.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/queen.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/queen.cpp
+
+CMakeFiles/main.dir/lib/src/queen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/queen.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/queen.cpp > CMakeFiles/main.dir/lib/src/queen.cpp.i
+
+CMakeFiles/main.dir/lib/src/queen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/queen.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/queen.cpp -o CMakeFiles/main.dir/lib/src/queen.cpp.s
+
+CMakeFiles/main.dir/lib/src/queen.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/queen.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/queen.cpp.o.provides: CMakeFiles/main.dir/lib/src/queen.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/queen.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/queen.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/queen.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/queen.cpp.o
+
+
+CMakeFiles/main.dir/lib/src/rook.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/src/rook.cpp.o: ../lib/src/rook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/lib/src/rook.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/lib/src/rook.cpp.o -c /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/rook.cpp
+
+CMakeFiles/main.dir/lib/src/rook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/src/rook.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/rook.cpp > CMakeFiles/main.dir/lib/src/rook.cpp.i
+
+CMakeFiles/main.dir/lib/src/rook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/src/rook.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/rook.cpp -o CMakeFiles/main.dir/lib/src/rook.cpp.s
+
+CMakeFiles/main.dir/lib/src/rook.cpp.o.requires:
+
+.PHONY : CMakeFiles/main.dir/lib/src/rook.cpp.o.requires
+
+CMakeFiles/main.dir/lib/src/rook.cpp.o.provides: CMakeFiles/main.dir/lib/src/rook.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/lib/src/rook.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/lib/src/rook.cpp.o.provides
+
+CMakeFiles/main.dir/lib/src/rook.cpp.o.provides.build: CMakeFiles/main.dir/lib/src/rook.cpp.o
+
+
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.o"
+"CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/init/init.cpp.o" \
+"CMakeFiles/main.dir/init/ui.cpp.o" \
+"CMakeFiles/main.dir/config/params.cpp.o" \
+"CMakeFiles/main.dir/lib/src/bishop.cpp.o" \
+"CMakeFiles/main.dir/lib/src/king.cpp.o" \
+"CMakeFiles/main.dir/lib/src/koma.cpp.o" \
+"CMakeFiles/main.dir/lib/src/night.cpp.o" \
+"CMakeFiles/main.dir/lib/src/pone.cpp.o" \
+"CMakeFiles/main.dir/lib/src/queen.cpp.o" \
+"CMakeFiles/main.dir/lib/src/rook.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/init/init.cpp.o
+main: CMakeFiles/main.dir/init/ui.cpp.o
+main: CMakeFiles/main.dir/config/params.cpp.o
+main: CMakeFiles/main.dir/lib/src/bishop.cpp.o
+main: CMakeFiles/main.dir/lib/src/king.cpp.o
+main: CMakeFiles/main.dir/lib/src/koma.cpp.o
+main: CMakeFiles/main.dir/lib/src/night.cpp.o
+main: CMakeFiles/main.dir/lib/src/pone.cpp.o
+main: CMakeFiles/main.dir/lib/src/queen.cpp.o
+main: CMakeFiles/main.dir/lib/src/rook.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuhei/RoboTech/cpp_lecture/chess2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +360,16 @@ CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/init/init.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/init/ui.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/config/params.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/bishop.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/king.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/koma.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/night.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/pone.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/queen.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/lib/src/rook.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

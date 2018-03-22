@@ -1,17 +1,13 @@
-//#include "lib/include/box.hpp"
-#include "lib/include/pone.hpp"
+#include "init/init.hpp"
 #include <iostream>
-
-Pone pone{0, 0, 0};
+#include "init/ui.hpp"
 
 int main()
 {
-    std::cout << pone.return_tate() << std::endl;
-    std::cout << pone.return_yoko() << std::endl;
-    pone.removed();
-    std::cout << pone.return_tate() << std::endl;
-    std::cout << pone.return_yoko() << std::endl;
-    pone.change_position(4, 5);
-    std::cout << pone.return_tate() << std::endl;
-    std::cout << pone.return_yoko() << std::endl;
+    init();
+
+    std::cout << AbstKoma::position.at(0).at(4)->returnID() << std::endl;
+    std::cout << AbstKoma::position.at(1).at(4)->returnID() << std::endl;
+    change(0, 4, 1, 4);
+    std::cout << AbstKoma::position.at(1).at(4)->returnID() << std::endl;
 }
