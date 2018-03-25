@@ -21,6 +21,8 @@ init.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/init/init.hpp
 memory
 -
+config/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess2/init/config/params.hpp
 ../lib/include/koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
 ../lib/include/pone.hpp
@@ -35,6 +37,8 @@ memory
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/queen.hpp
 ../lib/include/king.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/king.hpp
+../lib/include/none.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/none.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/init/ui.cpp
 config/params.hpp
@@ -75,6 +79,12 @@ config/params.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/night.hpp
+koma.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
+config/params.hpp
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
+
+/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/none.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
 config/params.hpp

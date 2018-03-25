@@ -8,5 +8,5 @@ const int QUEEN = 5;
 const int KING = 6;
 const int NONE = 0;
 
-const int PLAYER_A = 0;
-const int PLAYER_B = 1;
+const int PLAYER_A = 1;
+const int PLAYER_B = -1;

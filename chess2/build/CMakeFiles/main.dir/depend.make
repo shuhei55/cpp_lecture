@@ -11,6 +11,7 @@ CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/bishop.hpp
 CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/king.hpp
 CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/koma.hpp
 CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/night.hpp
+CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/none.hpp
 CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/pone.hpp
 CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/queen.hpp
 CMakeFiles/main.dir/init/init.cpp.o: ../lib/include/rook.hpp
@@ -23,6 +24,7 @@ CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/bishop.hpp
 CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/king.hpp
 CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/koma.hpp
 CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/night.hpp
+CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/none.hpp
 CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/pone.hpp
 CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/queen.hpp
 CMakeFiles/main.dir/init/ui.cpp.o: ../lib/include/rook.hpp
@@ -68,6 +70,7 @@ CMakeFiles/main.dir/main.cpp.o: ../lib/include/bishop.hpp
 CMakeFiles/main.dir/main.cpp.o: ../lib/include/king.hpp
 CMakeFiles/main.dir/main.cpp.o: ../lib/include/koma.hpp
 CMakeFiles/main.dir/main.cpp.o: ../lib/include/night.hpp
+CMakeFiles/main.dir/main.cpp.o: ../lib/include/none.hpp
 CMakeFiles/main.dir/main.cpp.o: ../lib/include/pone.hpp
 CMakeFiles/main.dir/main.cpp.o: ../lib/include/queen.hpp
 CMakeFiles/main.dir/main.cpp.o: ../lib/include/rook.hpp
