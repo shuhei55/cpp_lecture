@@ -7,6 +7,8 @@ class Rook : public AbstKoma
 public:
     explicit Rook(int tate, int yoko, int player) : AbstKoma(tate, yoko, player) {}
 
+    explicit Rook(int tate, int yoko, int player, bool start) : AbstKoma(tate, yoko, player, start) {}
+
     void change_position(int new_tate, int new_yoko) override;
 
     int returnID() const override

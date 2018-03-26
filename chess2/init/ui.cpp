@@ -9,17 +9,21 @@ int gamemode = PLAYER_A;
 
 void show()
 {
+    std::cout << "     ０  １  ２  ３  ４  ５  ６  ７" << std::endl;
     for (int i = 0; i <= 7; i++) {
+        std::cout << "   ---------------------------------" << std::endl;
+        std::cout << " " << i << " |";
         for (int j = 0; j <= 7; j++) {
-            std::cout << AbstKoma::position.at(i).at(j)->returnID() << " ";
+            std::cout << " " << AbstKoma::position.at(i).at(j)->returnID() << " |";
         }
         std::cout << "\n";
     }
+    std::cout << "   ---------------------------------" << std::endl;
 }
 
 void input()
 {
-    std::cout << "駒の番号と駒の位置と移動先" << std::endl;
+    std::cout << "駒の番号と駒の位置と移動先 : Usage Before_tate, Before_yoko, After_tate, After_yoko" << std::endl;
     try {
         std::cin >> pb.at(0) >> pb.at(1) >> pa.at(0) >> pa.at(1);
         if (!(pb.at(0) >= 0 && pb.at(0) < 8 && pb.at(1) >= 0 && pb.at(1) < 8 && pa.at(0) >= 0 && pa.at(0) < 8 && pa.at(1) >= 0 && pa.at(1) < 8)) {

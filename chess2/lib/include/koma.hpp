@@ -6,7 +6,9 @@
 class AbstKoma
 {
 public:
-    explicit AbstKoma(int tate, int yoko, int player) : m_tate(tate), m_yoko(yoko), m_player(player) {}
+    explicit AbstKoma(int tate, int yoko, int player) : m_tate(tate), m_yoko(yoko), m_player(player), m_start(false) {}
+
+    explicit AbstKoma(int tate, int yoko, int player, bool start) : m_tate(tate), m_yoko(yoko), m_player(player), m_start(start) {}
 
     /*bool check_alive() const
     {
@@ -20,6 +22,11 @@ public:
     int return_player() const
     {
         return m_player;
+    }
+
+    bool is_start() const
+    {
+        return m_start;
     }
 
     /*int return_tate() const
@@ -43,4 +50,5 @@ public:
 protected:
     int m_tate, m_yoko;
     int m_player;
+    bool m_start;
 };
