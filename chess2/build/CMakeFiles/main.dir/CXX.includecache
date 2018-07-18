@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -59,14 +59,10 @@ math.h
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/bishop.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/king.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
 cstdint
@@ -81,34 +77,24 @@ config/params.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/night.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/none.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/pone.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 iostream
 -
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/queen.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/rook.hpp
 koma.hpp
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/koma.hpp
-config/params.hpp
-/home/shuhei/RoboTech/cpp_lecture/chess2/lib/include/config/params.hpp
 
 /home/shuhei/RoboTech/cpp_lecture/chess2/lib/src/bishop.cpp
 ../include/bishop.hpp

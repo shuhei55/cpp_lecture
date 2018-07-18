@@ -3,28 +3,38 @@
 
 using namespace std;
 
-struct Person {
+class Person
+{
+public:
+    explicit Person(string name) : m_name(name), m_age(18), m_height(165), m_weight(50) {}
     void introduce()
     {
-        cout << "名前は" << name << endl;
-        cout << age << endl;
+        cout << "名前は" << m_name << endl;
+        cout << m_age << endl;
     }
     void reachBirthday()
     {
-        age++;
+        m_age++;
     }
-    string name;
-    int age;
-    double height, weight;
+    ~Person()
+    {
+        cout << "hoge" << endl;
+    }
+    string m_name;
+    int m_age;
+    double m_height, m_weight;
 };
 
 int main()
 {
-    Person one;
-    one.name = "太郎";
-    one.age = 18;
-    one.height = 1.711;
-    one.weight = 62.41;
+    Person one("hoge");
+    one.introduce();
+    one.reachBirthday();
+    one.introduce();
+    one.m_name = "太郎";
+    one.m_age = 18;
+    one.m_height = 1.711;
+    one.m_weight = 62.41;
     one.introduce();
     one.reachBirthday();
     one.introduce();

@@ -1,6 +1,6 @@
 #pragma once
 #include "koma.hpp"
-#include "config/params.hpp"
+//#include "config/params.hpp"
 #include <iostream>
 
 class Pone : public AbstKoma

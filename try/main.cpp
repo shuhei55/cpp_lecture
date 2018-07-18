@@ -1,10 +1,27 @@
+#include <cmath>
+#include <cstdio>
 #include <iostream>
-#include <string>
-#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-    cout << (5.0f * 65.80f + 6.0f * 62.33f + 2.0f * 71.0f + 2 * 86.0f + 81.0f * 2.0f + 2.0f * 69.0f + 52.0f + 52.0f * 2.0 + 62.0f + 62.0f * 2.0f + 73.0f + 61.0f + 62.0f + 71.0f + 55.0f * 2.0f + 50.0f * 2.0f + 57.0f * 2.0f + 71.0f * 2.0f + 74.0f + 55.0f * 2.0f + 58.0f * 2.0f + 67.0f * 2.0f + 56.0f * 2.0f + 72.0f * 2.0f + 88.0f * 2.0f + 74.0f * 2.0f) / (52.0f) << endl;
+    float x[6] = {0.04, 0.0625, 1.0 / 9.0, 0.0625, 1.0 / 9.0, 0.04};
+    float y[6] = {2.3054, 2.0518, 1.5249, 2.0611, 1.5221, 2.2747};
+    float A = 0, B = 0, C = 0, D = 0, E = 0;
+    for (int i = 0; i < 6; i++) {
+        A += y[i] * y[i];
+        B += x[i] * x[i];
+        C += y[i];
+        D += x[i] * y[i];
+        E += x[i];
+    }
+    float a = (6 * D - C * E) / (6 * B - E * E);
+    float b = (B * C - D * E) / (6 * B - E * E);
+    cout << a << endl;
+    cout << b << endl;
+    printf("%f\n", a);
+    printf("%f\n", b);
+    float dd = sqrt((pow(1.6655 - 1.66735, 2) + pow(1.66883 - 1.66735, 2) + pow(1.66826 - 1.66735, 2) + pow(1.66646 - 1.66735, 2)) / 3);
+    printf("%f\n", dd);
 }
