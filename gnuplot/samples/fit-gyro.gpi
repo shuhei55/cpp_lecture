@@ -1,0 +1,52 @@
+#!/usr/bin/gnuplot
+# file : fit-gyro.gpi
+# author : Inubushi Takayuki (2014)
+# brief : gyroの零点、標準偏差を計算する
+
+# gyroの個体依存なので値をみてから書き直すこと、表示用なので適当で良い
+gyro_mean = 46000   # gyroのrawrateの平均値っぽい値、
+gyro_sdev = 500     # gyroのrawrateの標準偏差っぽい値
+gyro_scale_min = gyro_mean - 5 * gyro_sdev
+gyro_scale_max = gyro_mean + 5 * gyro_sdev
+
+# 標準偏差と不確かさ計算用
+sum_n = 6000
+sum_x = 0
+sum_x2 = 0
+f_sum_x(x) = x + (sum_x = sum_x + x) * 0
+f_sum_x2(x) = x + (sum_x2 = sum_x2 + (x*x)) * 0
+
+set terminal png size 1200, 900
+set output "/dev/null"
+
+set yrange [gyro_scale_min:gyro_scale_max]
+set output "_tmp.png"
+plot "_tmp.log" using 2 title "dv_get_gyro_rawrate(GYRO_Z)"
+
+set terminal x11
+
+set terminal png size 1200, 900
+set output "/dev/null"
+
+# 全和と２乗和を計算
+plot "_tmp2.log" using (f_sum_x($2)):(f_sum_x2($2)) title "dummy for calculation"
+
+var = sum_x2 - (sum_x * sum_x) / sum_n
+sdev = sqrt( var / (sum_n - 1) )
+uncer = sdev / sqrt(sum_n - 1)
+mean = sum_x / sum_n
+
+plot "_tmp2.log" using 2 title "dv_get_gyro_rawrate(GYRO_Z)"
+f(x) = a * ( x - sum_n / 2 ) + mean
+a = 0.01
+fit f(x) "_tmp.log" using ($0):($2) via a
+replot f(x) title sprintf("f(x) = a*(x-3000)+mean ")
+
+replot f(x)-sdev*3 title sprintf("a = %f    mean = %d  meandiff = %d  -3 sigma", a, mean, a*(sum_n/2))
+replot f(x)-sdev*1 title sprintf("variance = %f  -1 sigma", var)
+replot f(x)+sdev*1 title sprintf("std_dev  = %f  +1 sigma", sdev)
+set output "_tmp2.png"
+replot f(x)+sdev*3 title sprintf("mean_unc = %f  +3 sigma", uncer)
+
+set terminal x11
+
